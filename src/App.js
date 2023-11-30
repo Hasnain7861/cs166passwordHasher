@@ -39,7 +39,7 @@ function App() {
       <form className="password-form" onSubmit={handleFormSubmit}>
         <label>
           Enter Password:
-          <input type="password" value={password} onChange={handleInputChange} />
+          <input type="text" value={password} onChange={handleInputChange} />
         </label>
         <button type="submit">Hash Password</button>
       </form>
